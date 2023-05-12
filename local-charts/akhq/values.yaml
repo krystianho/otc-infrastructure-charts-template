@@ -19,6 +19,9 @@ akhq:
         kafka:
           properties:
             bootstrap.servers: "kafka:9092"
+        bitnami-kafka:
+          properties:
+            bootstrap.servers: "bitnami-kafka:9092"
       server:
         access-log:
           enabled: true
